@@ -1,0 +1,141 @@
+.chose h2 {
+  color: #13243f;
+  font-size: 36px;
+  font-family: "Marcellus", serif;
+  font-weight: bold;
+  padding-top: 33px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.chose p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  top: -30px;
+  color: #13243f;
+  font-size: 18px;
+  text-align: center;
+}
+
+#shield img {
+  height: 85px;
+  width: 85px;
+}
+
+#shield h4 {
+  color: #13243f;
+  font-family: "Marcellus", serif;
+}
+
+#shield p {
+  color: #13243f;
+}
+
+#Integrity img {
+  height: 85px;
+  width: 85px;
+}
+
+#Integrity h4 {
+  color: #13243f;
+  font-family: "Marcellus", serif;
+}
+
+#Integrity p {
+  color: #13243f;
+}
+
+#excellence img {
+  height: 85px;
+  width: 85px;
+}
+
+#excellence h4 {
+  color: #13243f;
+  font-family: "Marcellus", serif;
+}
+
+#excellence p {
+  color: #13243f;
+}
+
+#aboutmetwo {
+  margin-bottom: 50px;
+}
+
+.aboutme {
+  background-color: #13243f;
+  padding-top: 31px;
+  padding-bottom: 25px;
+}
+
+.aboutme img {
+  height: 273px;
+  border-radius: 50%;
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+
+.aboutparagraphe {
+  margin-top: 30px;
+}
+
+.aboutparagraphe h4 {
+  color: #04abcc;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+
+.aboutparagraphe p {
+  color: white;
+  font-size: 20px;
+}
+
+.about-nav {
+  color: white;
+  list-style: none;
+}
+
+.about-link {
+  margin: 30px;
+}
+
+.about-link .fa-linkedin {
+  color: white;
+  font-size: 25px;
+}
+
+.about-link .fa-linkedin:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 0px 0px;
+  color: #04abcc;
+}
+
+.about-link .fa-whatsapp {
+  color: white;
+  font-size: 25px;
+}
+
+.about-link .fa-whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 0px 0px;
+  color: #04abcc;
+}
+
+.about-link .fa-envelope {
+  color: white;
+  font-size: 25px;
+}
+
+.about-link .fa-envelope:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 0px 0px;
+  color: #04abcc;
+}
+

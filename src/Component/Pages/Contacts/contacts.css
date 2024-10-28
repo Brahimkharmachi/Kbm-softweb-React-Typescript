@@ -1,0 +1,79 @@
+.chose h2 {
+  color: #13243f;
+  font-size: 36px;
+  font-family: "Marcellus", serif;
+  font-weight: bold;
+  padding-top: 33px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.chose p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  top: -30px;
+  color: #13243f;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  padding-top: 50px;
+  transition: transform 0.2s;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .card-container {
+    gap: 10px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .icon-container {
+    margin-bottom: 10px;
+  }
+}
